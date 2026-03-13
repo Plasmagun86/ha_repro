@@ -3,6 +3,7 @@ slug: "ocr_server"
 version: "0.1.5"
 description: "OCR server (config file stored in /config)"
 arch:
+  - aarch64
   - amd64
 startup: services
 boot: auto

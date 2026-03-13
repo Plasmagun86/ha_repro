@@ -30,7 +30,7 @@ The OCR logic lives in a separate repository and is included here as a Git submo
    → ⋮ → Repositories  
    → Add repository URL:
 
-   https://github.com/woody6402/ha_repro
+   https://github.com/Plasmagun86/ha_repro
 
 2. **Install the OCR Server Add-on**
 3. **Configure the Add-on Options**
@@ -48,11 +48,6 @@ in the server configuration file.
 | Option | Description |
 |------|-------------|
 | config_path | Path to the OCR server configuration file |
-| mqtt_host | MQTT broker host |
-| mqtt_port | MQTT broker port |
-| mqtt_username | MQTT username |
-| mqtt_password | MQTT password |
-| mqtt_topic_base | Base MQTT topic |
 
 Default value for config_path:
 
@@ -68,7 +63,6 @@ The OCR logic is configured via a YAML file on the Home Assistant system:
 
 This file typically contains:
 
-- MQTT structure
 - OCR models
 - Image regions (rects)
 - Regex matching rules
